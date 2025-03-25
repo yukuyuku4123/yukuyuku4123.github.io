@@ -54,7 +54,7 @@ h2:first-of-type {
 }
 h3 {
     display: flex;
-     align-items: center;
+    align-items: center;
     margin: 20px 0 15px;
     font-weight: normal;
 }
@@ -110,7 +110,7 @@ form .button {
 /* メールフォーム */
 .mailForm .enter {
     width: 60%;
-     min-width: 350px;
+    min-width: 350px;
     margin-bottom: .5em;
 }
 .mailForm textarea.enter {
@@ -139,8 +139,8 @@ p {
     content: '';
     display: block;
     position: absolute;
-     bottom: 0;
-     left: 0;
+    bottom: 0;
+    left: 0;
     width: 100%;
     height: 20px;
     /*background: url('../img/design72.png') center / cover var(--lightColor);*/
@@ -198,16 +198,16 @@ p {
 /* 画像ありリスト */
 .longList2 {
     display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
-     grid-template-rows: auto;
-     gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 30px;
     width: 90%;
     margin: 30px auto;
 }
 .longList2 li {
     display: flex;
-     flex-direction: column;
-     align-items: center;
+    flex-direction: column;
+    align-items: center;
 }
 .longList2 li a {
     text-align: center;
@@ -426,8 +426,39 @@ h1 {
     display: none;
 }
 
+/* SNS */
+.sns-button {
+    margin: 0;
+	padding: 0;
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    justify-content: center;
+}
+.sns-button li {
+    list-style: none;
+	margin: 0 10px;
+}
+.sns-button li a {
+    text-decoration: none;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+	background: #333;
+	border-radius: 10px;
+}
 
+.sns-button li a img {
+    width: 30px;
+    height: 30px;
+}
 
+.note {
+    width: 50px !important;
+    height: 50px !important;
+}
 /* レスポンシブ調整用 */
 @media (max-width:1200px) {
     body {
